@@ -1,13 +1,13 @@
 {
   "name": "ronu",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Easy Roman Numeral encoding and decoding.",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha -r ts-node/register src/**/*.test.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Matt Chapman",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^14.14.20",
