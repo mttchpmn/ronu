@@ -4,9 +4,17 @@
   "description": "Easy Roman Numeral encoding and decoding.",
   "main": "lib/index.js",
   "scripts": {
+    "prepare": "yarn test && tsc",
     "test": "mocha -r ts-node/register src/**/*.test.ts"
   },
-  "keywords": [],
+  "keywords": [
+    "conversion",
+    "integer",
+    "arabic",
+    "number",
+    "roman",
+    "typescript"
+  ],
   "author": "Matt Chapman",
   "license": "ISC",
   "dependencies": {
